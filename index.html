@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  <h6 id="select"></h6>
+    <nav>
+     
+         <div class="navbar">
+              <p id="header"> PDF BaZaAr</p>
+         </div>
+    </nav>
+    <div class="info">
+    
+    <span id="note">Available : BCA</span><p>
+      SEM-1 INT ,SEM-1 EXT , SEM-2 INT
+    </p>
+    </div>
+    <form>
+    <div class="selection">Select PDF  :
+      <select  onchange="window.location.href=this.value">
+        <optgroup label="SEM-1 INT">
+          <option value="#Select">Select</option>
+          <option value="#2">C Programming</option>
+          <option value="#3">DBMS</option>
+          <option value="#4">Mathametics</option>
+          <option value="#5">Compute Organization</option>
+          <option value="#6">Communication Skills</option>
+          <option value="#7">Understanding India</option>
+        </optgroup>
+
+        <optgroup label="SEM-1 EXT">
+          <option value="#8">C Programming</option>
+          <option value="#9">DBMS</option>
+          <option value="#9">Mathametics</option>
+          <option value="#10">Compute Organization</option>
+          <option value="#11">Communication Skills</option>
+          <option value="#13">Understanding India</option>
+        </optgroup>
+      </select>
+    </form>
+    </select>
+ <a href="#" class="to-top">
+  <i class="fas fa-chevron-up">Top</i>
+ </a>
+    <main>
+        
+          <div class="pdfs">
+            <div class="pdf1 box" id="2">
+              <img src="pdf-icon-png-2056 (1).png" alt="">
+                <div class="name">
+                   BCA <span>SEM-1 C Programming </span>INT paper
+                </div>
+                <div class="buttons" id="2">
+                  <div class="download">
+                <button id="downloade"><a href="CSS-Notes.pdf" download="CSS">download</a></button>
+               </div>
+               <div class="view">
+                <button id="view" onclick="openPDFViewer('CSS-Notes.pdf')">View</button>
+              </div>
+              </div>
+            </div>
+  
+  
+            <div class="pdf1 box" id="3">
+              <img src="pdf-icon-png-2056 (1).png" alt="">
+                <div class="name">
+                   BCA <span>SEM-1 DBMS </span>INT paper
+                </div>
+                <div class="buttons">
+                  <div class="download">
+                <button id="downloade">Downloade</button>
+               </div>
+               <div class="view">
+                <button id="view" onclick="openPDFViewer('CSS-Notes.pdf')">View</button>
+              </div>
+              </div>
+            </div>
+  
+            <div class="pdf1 box" id="4">
+              <img src="pdf-icon-png-2056 (1).png" alt="">
+                <div class="name">
+                   BCA <span>SEM-1 Mathametics </span> INT paper
+                </div>
+  
+                <div class="buttons">
+                  <div class="download">
+                <button id="downloade">Downloade</button>
+               </div>
+               <div class="view">
+                <button id="view" onclick="openPDFViewer('CSS-Notes.pdf')">View</button>
+              </div>
+              </div>
+          </div>
+  
+            <div class="pdf1 box" id="5">
+              <img src="pdf-icon-png-2056 (1).png" alt="">
+                <div class="name">
+                   BCA <span>SEM-1Compute Organization </span> INT paper
+                </div>
+                <div class="buttons">
+                  <div class="download">
+                <button id="downloade">Downloade</button>
+               </div>
+               <div class="view">
+                <button id="view" onclick="openPDFViewer('CSS-Notes.pdf')">View</button>
+              </div>
+              </div>
+            </div>
+  
+            <div class="pdf1 box" id="6">
+              <img src="pdf-icon-png-2056 (1).png" alt="">
+                <div class="name">
+                   BCA <span>SEM-1Communication Skills INT</span> paper
+                </div>
+                <div class="buttons">
+                  <div class="download">
+                <button id="downloade">Downloade</button>
+               </div>
+               <div class="view">
+                <button id="view" onclick="openPDFViewer('CSS-Notes.pdf')">View</button>
+              </div>
+              </div>
+            </div>
+         
+            <div class="pdf1 box" id="7">
+              <img src="pdf-icon-png-2056 (1).png" alt="">
+                <div class="name">
+                   BCA <span>SEM-1Understanding India INT </span> paper
+                </div>
+                <div class="buttons">
+                  <div class="download">
+                <button id="downloade">Downloade</button>
+               </div>
+               <div class="view">
+                <button id="view" onclick="openPDFViewer('CSS-Notes.pdf')">View</button>
+              </div>
+              </div>
+            </div>
+  
+            
+              <div class="pdf1 box" id="8">
+                <img src="pdf-icon-png-2056 (1).png" alt="">
+                  <div class="name">
+                     BCA <span>SEM-1 C Programming EXT </span>paper
+                  </div>
+                  <div class="buttons">
+                    <div class="download">
+                  <button id="downloade">Downloade</button>
+                 </div>
+                 <div class="view">
+                  <button id="view" onclick="openPDFViewer('c_programming.pdf')">View</button>
+                </div>
+                </div>
+              </div>
+            
+              <div class="pdf1 box" id="9">
+                <img src="pdf-icon-png-2056 (1).png" alt="">
+                  <div class="name">
+                     BCA <span>SEM-1 DBMS EXT </span>paper
+                  </div>
+                  <div class="buttons">
+                    <div class="download">
+                  <button id="downloade">Downloade</button>
+                 </div>
+                 <div class="view">
+                  <button id="view" onclick="openPDFViewer('DBMS.pdf')">View</button>
+                </div>
+                </div>
+              </div>
+  
+              <div class="pdf1 box" id="10">
+                <img src="pdf-icon-png-2056 (1).png" alt="">
+                  <div class="name">
+                     BCA <span>SEM-1 Mathametics EXT</span> paper
+                  </div>
+    
+                  <div class="buttons">
+                    <div class="download">
+                  <button id="downloade">Downloade</button>
+                 </div>
+                 <div class="view">
+                  <button id="view" onclick="openPDFViewer('mathamatics.pdf')">View</button>
+                </div>
+                </div>
+            </div>
+  
+            <div class="pdf1 box" id="11">
+              <img src="pdf-icon-png-2056 (1).png" alt="">
+                <div class="name">
+                   BCA <span>SEM-1 Compute Organization EXT </span>paper
+                </div>
+                <div class="buttons">
+                  <div class="download">
+                <button id="downloade">Downloade</button>
+               </div>
+               <div class="view">
+                <button id="view" onclick="openPDFViewer('computer_organization.pdf')">View</button>
+              </div>
+              </div>
+            </div>
+  
+            <div class="pdf1 box">
+              <img src="pdf-icon-png-2056 (1).png" alt="">
+             
+                <div class="name">
+                   BCA <span>SEM-1 Communication Skills EXT </span>paper
+                </div>
+                <div class="buttons">
+                  <div class="download">
+                <button id="downloade">Downloade</button>
+               </div>
+               <div class="view">
+                <button id="view" onclick="openPDFViewer('communication_skills_ext.pdf')">View</button>
+              </div>
+              </div>
+            </div>
+  
+         
+            <div class="pdf1 box">
+              <img src="pdf-icon-png-2056 (1).png" alt="">
+              
+                <div class="name" id="th">
+                   BCA <span>SEM-1Understanding India EXT </span>paper
+                </div>
+                <div class="buttons">
+                  <div class="download">
+                <button id="downloade">Downloade</button>
+               </div>
+               <div class="view">
+                <button id="view" onclick="openPDFViewer('understanding_india.pdf')">View</button>
+              </div>
+              </div>
+            </div>
+    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
